@@ -1,6 +1,6 @@
 // API Configuration
 export const API_CONFIG = {
-  BASE_URL: 'http://185.218.124.154:8800/api',
+  BASE_URL: 'https://minierp.rbnetto.dev/api',
   ENDPOINTS: {
     LOGIN: '/users/users/login/',
     PROFILE: '/users/users/profile/',
@@ -8,9 +8,9 @@ export const API_CONFIG = {
     CATEGORIES: '/inventory/categories/',
     CUSTOMERS: '/sales/customers/',
     ORDERS: '/sales/orders/',
-    DASHBOARD: '/reports/dashboard_summary/',
-    SALES_REPORT: '/reports/sales_report/',
-    INVENTORY_REPORT: '/reports/inventory_report/'
+    DASHBOARD: '/reports/reports/dashboard_summary/',
+    SALES_REPORT: '/reports/reports/sales_report/',
+    INVENTORY_REPORT: '/reports/reports/inventory_report/'
   }
 }
 

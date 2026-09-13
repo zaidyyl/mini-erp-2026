@@ -131,7 +131,7 @@ export class Login {
         const response = await authAPI.login(email, password)
         
         // Store token and user data
-        localStorage.setItem('token', response.access)
+        localStorage.setItem('token', response.access_token)
         localStorage.setItem('user', JSON.stringify(response.user))
         
         this.showSuccess('¡Login exitoso! Redirigiendo...')
